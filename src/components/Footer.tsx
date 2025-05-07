@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Download, Github, Linkedin, Mail } from 'lucide-react';
+import { Instagram, Github, Linkedin, Mail, Youtube } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -26,7 +25,7 @@ const Footer: React.FC = () => {
             </motion.a>
             
             <motion.a 
-              href="https://linkedin.com/in/shibendra-mishra" 
+              href="https://www.linkedin.com/in/shibendra-mishra-1a536a237/" 
               target="_blank"
               rel="noopener noreferrer"
               className="bg-zen-purple/20 p-3 rounded-full hover:bg-zen-purple/30 transition-colors"
@@ -36,7 +35,7 @@ const Footer: React.FC = () => {
             </motion.a>
             
             <motion.a 
-              href="https://github.com/shibendra-mishra" 
+              href="https://github.com/Shiva9570" 
               target="_blank"
               rel="noopener noreferrer"
               className="bg-zen-purple/20 p-3 rounded-full hover:bg-zen-purple/30 transition-colors"
@@ -46,11 +45,33 @@ const Footer: React.FC = () => {
             </motion.a>
             
             <motion.a 
-              href="#" 
+              href="https://www.instagram.com/jii_misharji" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-zen-purple/20 p-3 rounded-full hover:bg-zen-purple/30 transition-colors"
               whileHover={{ y: -5 }}
             >
-              <Download className="text-zen-purple-light" size={20} />
+              <Instagram className="text-zen-purple-light" size={20} />
+            </motion.a>
+
+            <motion.a 
+              href="https://www.youtube.com/@sumitbeats" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-zen-purple/20 p-3 rounded-full hover:bg-zen-purple/30 transition-colors"
+              whileHover={{ y: -5 }}
+            >
+              <Youtube className="text-zen-purple-light" size={20} />
+            </motion.a>
+
+            <motion.a 
+              href="https://www.youtube.com/@Go.flexrcords" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-zen-purple/20 p-3 rounded-full hover:bg-zen-purple/30 transition-colors"
+              whileHover={{ y: -5 }}
+            >
+              <Youtube className="text-zen-purple-light" size={20} />
             </motion.a>
           </motion.div>
           

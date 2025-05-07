@@ -110,7 +110,7 @@ const Contact: React.FC = () => {
               </motion.a>
               
               <motion.a 
-                href="https://linkedin.com/in/shibendra-mishra" 
+                href="https://www.linkedin.com/in/shibendra-mishra-1a536a237/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 group"
@@ -126,7 +126,7 @@ const Contact: React.FC = () => {
               </motion.a>
               
               <motion.a 
-                href="https://github.com/shibendra-mishra" 
+                href="https://github.com/Shiva9570" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 group"
@@ -137,7 +137,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">GitHub</p>
-                  <p className="text-gray-200">shibendra-mishra</p>
+                  <p className="text-gray-200">Shiva9570</p>
                 </div>
               </motion.a>
             </div>

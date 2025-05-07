@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Music, Play } from 'lucide-react';
@@ -8,13 +7,13 @@ const MicDrop: React.FC = () => {
     {
       name: "Sumit Beats",
       description: "Beat production and instrumentals",
-      link: "https://www.youtube.com/channel/channel-id-1",
+      link: "https://www.youtube.com/@sumitbeats",
       type: "beats"
     },
     {
       name: "Go.flexrcords",
       description: "Main rap channel featuring original tracks",
-      link: "https://www.youtube.com/channel/channel-id-2",
+      link: "https://www.youtube.com/@Go.flexrcords",
       type: "main"
     }
   ];

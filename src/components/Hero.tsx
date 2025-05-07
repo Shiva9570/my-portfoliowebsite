@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ProfileCarousel from './ProfileCarousel';
 import { ArrowRight, Download, Github, Music } from 'lucide-react';
@@ -106,7 +105,9 @@ const Hero: React.FC = () => {
               variants={containerVariants}
             >
               <motion.a 
-                href="#" 
+                href="https://drive.google.com/file/d/19kq3ea0T3EfpOF-_FyCbwaMXTzHQSP5B/view?usp=drive_link" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-glow px-6 py-3 rounded-full font-medium text-white flex items-center gap-2"
                 variants={itemVariants}
                 whileHover={{ scale: 1.05 }}
@@ -117,7 +118,9 @@ const Hero: React.FC = () => {
               </motion.a>
               
               <motion.a 
-                href="#projects" 
+                href="https://github.com/Shiva9570" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-zen-dark border border-zen-purple/30 hover:border-zen-purple px-6 py-3 rounded-full font-medium text-white transition-colors flex items-center gap-2"
                 variants={itemVariants}
                 whileHover={{ scale: 1.05 }}
@@ -128,7 +131,9 @@ const Hero: React.FC = () => {
               </motion.a>
               
               <motion.a 
-                href="#music" 
+                href="https://www.youtube.com/@Go.flexrcords" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-zen-dark border border-zen-blue/30 hover:border-zen-blue px-6 py-3 rounded-full font-medium text-white transition-colors flex items-center gap-2"
                 variants={itemVariants}
                 whileHover={{ scale: 1.05 }}

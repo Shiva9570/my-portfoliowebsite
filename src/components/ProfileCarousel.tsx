@@ -34,19 +34,19 @@ const ProfileCarousel: React.FC<ProfileCarouselProps> = ({
       setIsAnimating(false);
     }, 600);
   };
-  return <div className={cn('relative w-72 h-72 md:w-80 md:h-80', className)}>
-      <div className="relative w-full h-full overflow-hidden shadow-xl border-2 border-zen-purple/30">
+  return <div className={cn('relative w-72 h-96 md:w-80 md:h-[400px]', className)}>
+      <div className="relative w-full h-full overflow-hidden shadow-xl border-2 border-zen-purple/30 rounded-xl">
         {/* Shadow overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-zen-dark/80 z-10 rounded-none px-0 py-0"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-zen-dark/80 z-10"></div>
         
         {/* Current image */}
         <div className={cn('absolute inset-0 transition-opacity duration-600 ease-in-out', isAnimating ? 'opacity-0' : 'opacity-100')}>
-          <img src={images[currentIndex]} alt="Shibendra Mishra" className="w-full h-full object-cover" />
+          <img src={images[currentIndex]} alt="Shibendra Mishra" className="w-full h-full object-contain" />
         </div>
         
         {/* Next image (for transition) */}
         <div className={cn('absolute inset-0 transition-opacity duration-600 ease-in-out', isAnimating ? 'opacity-100' : 'opacity-0')}>
-          <img src={images[(currentIndex + 1) % images.length]} alt="Shibendra Mishra" className="w-full h-full object-cover" />
+          <img src={images[(currentIndex + 1) % images.length]} alt="Shibendra Mishra" className="w-full h-full object-contain" />
         </div>
       </div>
       

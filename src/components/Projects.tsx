@@ -1,10 +1,9 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from './ProjectCard';
 
 const Projects: React.FC = () => {
-  const githubProfile = "https://github.com/shivendra9570";
+  const githubProfile = "https://github.com/Shiva9570";
   
   const projects = [
     {
